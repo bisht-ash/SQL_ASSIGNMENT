@@ -5,12 +5,10 @@ CREATE TABLE email_id (
 
 
 INSERT INTO email_id VALUES(45,'abc@gmail.com');
-INSERT INTO email_id VALUES(23,'def@gmail.com');
-INSERT INTO email_id VALUES(34,'bcf@gmail.com');
-INSERT INTO email_id VALUES(21,'def@gmail.com');
-INSERT INTO email_id VALUES(94,'def@gmail.com');
-INSERT INTO email_id VALUES(95,'def@gmail.com');
-
+INSERT INTO email_id VALUES(23,'def@yahoo.com');
+INSERT INTO email_id VALUES(34,'abc@gmail.com');
+INSERT INTO email_id VALUES(21,'bcf@gmail.com');
+INSERT INTO email_id VALUES(94,'def@yahoo.com');
 
 DELETE FROM 
   email_id 

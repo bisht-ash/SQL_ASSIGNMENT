@@ -12,21 +12,10 @@ CREATE TABLE employees (
   department VARCHAR(30)
 );
 
-INSERT into employees 
-VALUES 
-  (1, 'X', 'F', 'Finance');
-
-INSERT into employees 
-values 
-  (2, 'Y', 'M', 'IT');
-
-INSERT into employees 
-values 
-  (3, 'Z', 'M', 'HR');
-
-INSERT into employees 
-values 
-  (4, 'W', 'F', 'IT');
+INSERT INTO employees VALUES (1, 'X', 'F', 'Finance');
+INSERT INTO employees VALUES (2, 'Y', 'M', 'IT');
+INSERT INTO employees VALUES (3, 'Z', 'M', 'HR');
+INSERT into employees VALUES (4, 'W', 'F', 'IT');
 
 SELECT
   department, 
@@ -59,11 +48,8 @@ CREATE TABLE salary (
 );
 
 INSERT INTO salary VALUES('X',5200,9093,3832);
-
 INSERT INTO salary VALUES('Y',9023,8942,4000);
-
 INSERT INTO salary VALUES('Z',9834,8197,9903);
-
 INSERT INTO salary VALUES('W',3244,4321,0293);
 
 SELECT 
@@ -129,11 +115,10 @@ CREATE TABLE email_id (
 
 
 INSERT INTO email_id VALUES(45,'abc@gmail.com');
-INSERT INTO email_id VALUES(23,'def@gmail.com');
-INSERT INTO email_id VALUES(34,'bcf@gmail.com');
-INSERT INTO email_id VALUES(21,'def@gmail.com');
-INSERT INTO email_id VALUES(94,'def@gmail.com');
-INSERT INTO email_id VALUES(95,'def@gmail.com');
+INSERT INTO email_id VALUES(23,'def@yahoo.com');
+INSERT INTO email_id VALUES(34,'abc@gmail.com');
+INSERT INTO email_id VALUES(21,'bcf@gmail.com');
+INSERT INTO email_id VALUES(94,'def@yahoo.com');
 
 
 DELETE FROM 

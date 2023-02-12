@@ -1,5 +1,5 @@
-create database assignment;
-use assignment;
+CREATE DATABASE assignment;
+USE assignment;
 CREATE TABLE employees (
   empid INT PRIMARY KEY, 
   name VARCHAR(30), 
@@ -7,21 +7,10 @@ CREATE TABLE employees (
   department VARCHAR(30)
 );
 
-INSERT into employees 
-VALUES 
-  (1, 'X', 'F', 'Finance');
-
-INSERT into employees 
-values 
-  (2, 'Y', 'M', 'IT');
-
-INSERT into employees 
-values 
-  (3, 'Z', 'M', 'HR');
-
-INSERT into employees 
-values 
-  (4, 'W', 'F', 'IT');
+INSERT INTO employees VALUES (1, 'X', 'F', 'Finance');
+INSERT INTO employees VALUES (2, 'Y', 'M', 'IT');
+INSERT INTO employees VALUES (3, 'Z', 'M', 'HR');
+INSERT into employees VALUES (4, 'W', 'F', 'IT');
 
 SELECT
   department, 
