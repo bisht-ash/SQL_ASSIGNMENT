@@ -140,5 +140,5 @@ WHERE
 ```
 
 ### Output
-<img src="https://github.com/bisht-ash/SQL_ASSIGNMENT/blob/main/screenshots/Screenshot%202023-02-11%20at%2011.12.43%20PM.png" width="500">
-<img src="https://github.com/bisht-ash/SQL_ASSIGNMENT/blob/main/screenshots/Screenshot%202023-02-12%20at%2010.45.53%20AM.png" width="500">
+<img src="https://github.com/bisht-ash/SQL_ASSIGNMENT/blob/main/screenshots/Screenshot%202023-02-12%20at%2011.28.07%20AM.png" width="500">
+<img src="https://github.com/bisht-ash/SQL_ASSIGNMENT/blob/main/screenshots/Screenshot%202023-02-12%20at%2011.29.49%20AM.png" width="500">
